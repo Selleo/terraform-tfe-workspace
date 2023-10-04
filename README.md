@@ -1,6 +1,6 @@
-# Terraform RENAME_ME module
+# Terraform Cloud Workspace module
 
-TODO
+Simplify Terraform Cloud workspace creation.
 
 <!-- BEGIN_TF_DOCS -->
 

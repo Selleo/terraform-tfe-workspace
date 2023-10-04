@@ -33,4 +33,4 @@ jobs:
     - name: Run TFLint
       run: |
         tflint -f compact .
-        tflint -f compact modules/rename_me
+        tflint -f compact modules/workspace
