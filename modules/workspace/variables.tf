@@ -41,3 +41,9 @@ variable "dir" {
   default     = ""
 }
 
+variable "share_state_with" {
+  type        = list(string)
+  description = "Workspaces to share the workspace state with"
+  default     = []
+}
+
