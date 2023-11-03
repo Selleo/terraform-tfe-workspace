@@ -1,13 +1,13 @@
 resource "tfe_workspace" "this" {
-  name              = var.name
-  organization      = var.organization
-  tag_names         = var.tags
-  description       = var.description
-  execution_mode    = "remote"
-  terraform_version = var.terraform_version
-  working_directory = var.dir
-  project_id        = var.project_id
-
+  name                    = var.name
+  organization            = var.organization
+  tag_names               = var.tags
+  description             = var.description
+  execution_mode          = "remote"
+  terraform_version       = var.terraform_version
+  working_directory       = var.dir
+  project_id              = var.project_id
+remote_state_consumer_ids = var.share_state_with
 }
 
 resource "tfe_workspace_variable_set" "this" {
