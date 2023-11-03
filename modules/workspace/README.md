@@ -28,4 +28,10 @@
 | <a name="input_tags"></a> [tags](#input\_tags) | Workspace tags | `list(string)` | `[]` | no |
 | <a name="input_terraform_version"></a> [terraform\_version](#input\_terraform\_version) | Workspace Terraform version | `string` | n/a | yes |
 | <a name="input_variable_set"></a> [variable\_set](#input\_variable\_set) | Workspace variable set | `string` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | Workpace ID |
 <!-- END_TF_DOCS -->
